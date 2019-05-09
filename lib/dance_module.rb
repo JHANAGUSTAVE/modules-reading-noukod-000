@@ -1,4 +1,4 @@
-class DanceModule
+module Dance
    def twirl
      puts "I'm twirling!"
    end
