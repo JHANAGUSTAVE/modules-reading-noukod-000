@@ -2,9 +2,9 @@ require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
 
 class Dancer
-  include Dance
+  include DanceModule
   
-  extend MetaDancing
+  extend MetaDancingModule
   attr_accessor :name
   
   def initialize(name)
