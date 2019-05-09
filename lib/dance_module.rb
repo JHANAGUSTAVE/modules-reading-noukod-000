@@ -4,6 +4,7 @@ class DanceModule
    end
    
    def jump
+     puts "Look how high I'm jumping!"
    end
    
    def pirouette
